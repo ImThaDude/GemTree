@@ -21,7 +21,10 @@ the player. Players with lower levels will be informed when there is a player of
 Players with higher level will have different colored names.
 
 There are two files on GemTree. The tree yml is the upgrade path for the item. The server will load this tree
-and therefore will find the next upgrade. Maybe create a custom tree object?
+and therefore will find the next upgrade. Maybe create a custom tree object? Maybe add all of the items on an arraylist
+and add the upgrade properties in them. It clears it and refreshes it every time the server is loaded. Traverse through stats!
+Because the items should inherit their last stats. Maybe create IDs based on tree? Gem Tree will also create a tree to see through
+a yml
 
 GemTree:
     BASE01: ##Base Gem
@@ -66,3 +69,12 @@ but they will be temporal. They have special powers and stuff. They can be updat
 
 The reason it will not be a crafting system it is because its too complicated to make our players learn all recipees for every
 upgrade.
+
+Legendaries can use chain as gear. Or anything. More specific on what the player has to wear to work.
+
+Players can decide to upgrade their gems in the same tier. This is called Enhance. Enhance will increase the stats of a Gem temporally
+For every monster there will be an item which will let you enhance it several levels. The inside the items specifically will have an enhance thing. So players can update with no guilt their items. This will be called enhance dust.
+
+When you get a legendary, It will drop as an ancient gem, it will say. Its barely readable. Players can take this gem
+and polish it therefore the gem will be spawned as a gem. instead of hardcoded.
+code.
