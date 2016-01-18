@@ -1,0 +1,41 @@
+## YAML Template.
+---
+GemTree:
+    BASE01: ##Base Gem
+        DMG001: ## +1 Dmg
+            DMG002: ## +2 Dmg
+                DMG003: ## +3 Dmg
+                    DMG004: ## +4 Dmg
+                        DMG005: ## +5 Dmg
+            KNGT01: ## +1 Dmg & +1 Penetration
+                KNGT02: ## +2 Dmg & 1 Pen
+                    KNGT02: ## +2 Dmg & +2 Pen
+                        KNGT03: ## +3 Dmg & +2 Pen
+            PAL001: ## +1 Dmg & +1 HP
+                PAL002: ## +2 Dmg & +1 HP
+                    PAL003: ## +2 Dmg & +2 HP
+                        PAL004: ## +3 Dmg & +2 HP
+            THF001: ## +1 Dmg & +1 Speed
+                THF002: ## +2 Dmg & +1 Speed
+                    THF003: ## +2 Dmg & +2 Spd
+                        THF004: ## +3 Dmg & +2 Spd
+                    
+        HP0001: ## +1 HP
+            HP0002: ## +2 HP
+                HP0003: ## +3 HP
+                    HP0004: ## +4 HP
+                        HP0005: ## +5 HP
+            TANK01: ## +1 HP & +1 Regen
+                TANK02: ## +2 HP & +1 Regen
+                    TANK03: ## +2 HP & +2 Regen
+                        TANK04: ## +3 HP & +2 Regen
+            ROCK01: ## +1 HP & +1 Knockback resist & +1 Knockback
+                ROCK02: ## +2 HP & +1 Knockback resist & +1 Knockback
+                    ROCK03: ## +2 HP & +2 Knockback resist & +2 Knockback
+                        ROCK04: ## +3 HP & +2 Knockback resist & +2 Knockback
+            HEAL01: ## +1 HP & +1 Speed
+                HEAL02: ## +2 HP & +1 Spd
+                    HEAL03: ## +2 HP & +2 Spd
+                        HEAL04: ## +3 HP & +2 Spd
+    LGND01:
+        

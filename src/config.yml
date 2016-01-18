@@ -1,0 +1,8 @@
+## YAML Template.
+---
+GemStats:
+    BASE01:
+        Name: Base Gem
+        Stats:
+            Health: 1
+    
